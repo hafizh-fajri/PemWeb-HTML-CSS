@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">MyPorto.</h1>
+            <div class="space-x-6">
+                <a href="index.html" class="text-blue-600 font-semibold">Home</a>
+                <a href="about.html" class="hover:text-blue-600 transition">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2">
+            <h2 class="text-3xl md:text-5xl font-extrabold leading-tight">Halo, Saya Hafizh<span class="block text-blue-600 text-3xl md:text-5xl mt-2">Mahasiswa FILKOM</span></h2>
+            <p class="mt-4 text-lg text-gray-600">Seorang pengembang web pemula yang antusias dengan teknologi dan machine learning.</p>
+            <div class="mt-8">
+                <a href="#proyek" class="bg-blue-600 text-white px-8 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition">Lihat Proyek</a>
+            </div>
+        </div>
+        <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center">
+            <div class="w-64 h-64 rounded-full overflow-hidden border-4 border-blue-600 shadow-xl">
+                <img src="images/foto.jpg" 
+                     alt="Foto Saya" 
+                     class="w-full h-full object-cover ">
+            </div>
+        </div>
+    </header>
+
+    <section id="proyek" class="bg-white py-20">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold text-center mb-12">Proyek Terbaru</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="border rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">Gambar Proyek 1</div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2">Sistem Rental Dokumentasi</h4>
+                        <p class="text-gray-600">Aplikasi web berbasis MVC untuk manajemen peminjaman alat kamera.</p>
+                    </div>
+                </div>
+                <div class="border rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">Gambar Proyek 2</div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2">Desain Jaringan FILKOM</h4>
+                        <p class="text-gray-600">Simulasi topologi jaringan untuk gedung bertingkat menggunakan Cisco.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-8 text-center">
+        <p>&copy; 2026 Portofolio Mahasiswa. Dibuat dengan Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>

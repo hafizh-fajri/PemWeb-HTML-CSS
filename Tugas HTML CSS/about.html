@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya | About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-white shadow-md px-6 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-blue-600">MyPorto.</h1>
+        <div class="space-x-6">
+            <a href="index.html" class="hover:text-blue-600 transition">Home</a>
+            <a href="about.html" class="text-blue-600 font-semibold">About</a>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-6 py-12 max-w-4xl">
+        <section class="bg-white p-8 rounded-2xl shadow-lg">
+            <h2 class="text-3xl font-bold border-b-4 border-blue-600 inline-block mb-6">Tentang Saya</h2>
+            <p class="text-lg leading-relaxed mb-6">
+                Saya adalah mahasiswa Teknik Informatika yang memiliki ketertarikan besar pada pengembangan perangkat lunak dan analisis data. Saat ini saya sedang menempuh studi di Universitas Brawijaya.
+            </p>
+
+            <h3 class="text-xl font-bold mb-4">Pendidikan</h3>
+            <ul class="space-y-4">
+                <li class="flex items-start">
+                    <img src="images/logo-ub.jpg" 
+                         alt="Logo Universitas Brawijaya" 
+                         class="w-14 h-14 object-contain -mt-1 mr-4">
+                    <div>
+                        <p class="font-bold">S1 Teknik Informatika</p>
+                        <p class="text-sm text-gray-500">Universitas Brawijaya | 2024 - Sekarang</p>
+                    </div>
+                </li>
+            </ul>
+
+            <h3 class="text-xl font-bold mt-8 mb-4">Hubungi Saya</h3>
+            <form class="space-y-4">
+                <input type="text" placeholder="Nama Anda" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                <textarea placeholder="Pesan" class="w-full p-3 border rounded-lg h-32 focus:ring-2 focus:ring-blue-500 outline-none"></textarea>
+                <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">Kirim Pesan</button>
+            </form>
+        </section>
+        
+        <div class="mt-8 text-center">
+            <a href="index.html" class="text-blue-600 hover:underline">← Kembali ke Beranda</a>
+        </div>
+    </main>
+
+</body>
+</html>
